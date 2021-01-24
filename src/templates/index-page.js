@@ -15,15 +15,18 @@ export const IndexPageTemplate = ({
   description,
   intro,
 }) => (
-  <div>
+  <div className="transparent">
+    <video autoplay muted loop className="video-background">
+        <source src="https://static.videezy.com/system/resources/previews/000/019/695/original/pointing-pink.mp4" type="video/mp4" />
+    </video>
     <div
-      className="full-width-image margin-top-0"
+      className="full-width-image margin-top-0 transparent"
       style={{
-        backgroundImage: `url(${
+        /*backgroundImage: `url(${
           !!image.childImageSharp ? image.childImageSharp.fluid.src : image
         })`,
         backgroundPosition: `top left`,
-        backgroundAttachment: `fixed`,
+        backgroundAttachment: `fixed`,*/
       }}
     >
       <div

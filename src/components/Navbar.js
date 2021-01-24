@@ -10,7 +10,7 @@ const Navbar = () => {
     <Container className="justify-content-center header-nav" fluid>
       <Row>
         <Col md={12}>
-          <h1 className="title">Hannah Stone Music</h1>
+          <h1 className="title"><a href="/">Hannah Stone Music</a></h1>
         </Col>
       </Row>
       <Row>
